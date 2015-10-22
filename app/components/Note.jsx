@@ -41,7 +41,7 @@ export default class Note extends React.Component {
     );
   }
   renderDelete() {
-    return <button className="delete" onClick={this.props.onDelete}>o</button>;
+    return <button className="delete" onClick={this.props.onDelete}>x</button>;
   }
   edit() {
     this.setState({
