@@ -1,7 +1,7 @@
 import AltContainer from 'alt/AltContainer';
 import React from 'react';
 import Notes from './Notes.jsx';
-import NoteActions from '../actions/NoteActions';
+import NoteActions from '../actions/NoteAction';
 import NoteStore from '../stores/NoteStore';
 
 export default class App extends React.Component {
